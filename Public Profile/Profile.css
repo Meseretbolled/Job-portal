@@ -1,0 +1,540 @@
+@import url("https://fonts.googleapis.com/css2?family=poppins:wght@400;600&display=swap");
+* {
+    margin:0;
+    padding:0;
+    border:none;
+    outline:none;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+.body-container{
+    display:flex;
+    color:#999;
+
+}
+body{
+    background-color: white; 
+}
+
+h1 {
+  font-size: 50px;
+  margin: 20px auto;
+  font-weight: bolder;
+  font-family: var(--font-noto-sans-hebrew);
+}
+body{
+  background-color: white; 
+}
+
+.main-state {
+font-size: 50px;
+margin: 20px auto;
+font-weight: bolder;
+font-family: var(--font-noto-sans-hebrew);
+}
+ 
+.main-navbar {
+border-style: solid;
+border-width: 0rem 0rem 0.1rem 0rem;
+border: 0.5px  solid #dcdcdc;
+position: fixed;
+left: 0rem;
+top: 0rem;
+height: 6.8rem;
+background: #fff;
+width: 100%;
+display: inline-flex; /* Arrange elements horizontally */
+justify-content: center; /* Distribute elements evenly with space */
+gap: 10rem;
+align-items: center; /* Vertically center elements */
+z-index: 2;
+}
+
+
+.main-logo {
+color: blue;
+font-size: 37px;
+font-weight: bolder;
+font: var(--font-noto-sans);
+}
+
+
+.main-nav-links {
+  margin-top: 30px;
+  list-style: none;
+  display: flex;
+  
+}
+
+.main-nav-links li {
+  font: weight 700px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px 3px;
+  
+}
+.main-nav-links li a{
+  text-decoration: none;
+  padding: 10px 10px;
+  margin-right: 15px;
+  margin-top: 15px;
+  border-radius: 1px;
+  color:  black;
+  background-color: #fff; /* White background for contrast */
+  padding-top: 3%;
+  padding-bottom: 6%;
+  
+}
+a.main-nav-links li,a:hover{
+  color: #4348DB;
+  border-style: solid;
+  border-width: 0rem 0rem 0.2rem 0rem;
+}
+
+
+#CS{
+color: #4348DB;
+border-style: solid;
+margin-top: 15px;
+border-width: 0rem 0rem 0.2rem 0rem; 
+}
+
+
+.main-header-buttons {
+margin-right: 10px;
+margin-top: 10px;
+display: flex;
+}
+
+button {
+margin: 0;
+padding: 0;
+border: none;
+font: inherit;
+color: inherit;
+}
+
+
+.main-button {
+display: inline-block;
+padding: 15px 25px;
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+background-color: blue;
+color: white;
+border-radius: 5px;
+transition: red 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.main-button:hover {
+background-color: purple;
+color: #fff;
+}
+
+/* Style the login link */
+.main-linkTologin {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  margin-right: 35px;
+  margin-top: 10px;
+  border-radius: 5px;
+  color:  #4348DB;
+  background-color: #fff; /* White background for contrast */
+}
+
+/* Hover effect for the login link */
+.main-linkTologin:hover {
+  background-color: #ddd; /* Light gray background on hover */
+}
+
+
+.sidebar{
+    position: sticky;
+    top:0;
+    left:0;
+    bottom:0;
+    width:210px;
+    height:100vh;
+    padding: 0 1.7rem;
+    color:#fff;
+    overflow:hidden;
+    transition:all  0.5s linear;
+    background : #0000FF;
+
+}
+.sidebar:hover{
+    width:80px;
+    transition: 0.5s;
+}
+.logo{
+    height:20px;
+    padding:16px;
+
+}
+.menu{
+height:88%;
+position:relative;
+list-style:none;
+padding:0;
+
+}
+.menu li{
+    padding:0.5rem;
+    margin:18px 0;
+    border-radius:8px;
+    transition:all 0.5s ease-in-out;
+}
+.menu a{
+    color:white;
+    font-size:14px;
+    text-decoration: none;
+    display:flex;
+    align-items:center;
+    gap:1.5rem;
+}
+.menu a span{
+    overflow:hidden;
+}
+.menu a i{
+ font-size:1.2rem;   
+}
+.logout{
+ 
+    position:absolute;
+    bottom: 0;
+    left:0;
+    width:100%;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #5f5f5f;
+}
+.logo img {
+    width: 10px;
+    margin-right: 15px;
+    display: block;
+}
+.container {
+    width:800px;
+    padding: 50px 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 110px;
+}
+
+
+
+.profile-main {
+    flex-basis: 80%;
+}
+.profile-container {
+    background: #fff;
+}
+
+.profile-container-inner {
+    padding: 0 7% 20px;
+}
+.prof-background {
+    border-radius: 2.5px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: -90px;
+    padding: 3px;
+    background: #fff;
+}
+
+.profile-container h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #222;
+}
+
+.profile-container b {
+    font-weight: 500;
+}
+
+.profile-container p {
+    margin-top: 50px;
+}
+
+.profile-container p a {
+    color: #045be6;
+    font-weight: 500;
+}
+
+.profile-btn {
+    margin: 50px 0;
+    display: flex;
+}
+
+
+.settings_link {
+  all: initial;
+  color: #045be6;
+  background-color: #fff;
+  border-radius: 2px;
+  border: 1px solid #dcdcdc;
+}
+
+
+.profile-btn a {
+    display: inline-flex;
+    align-items: center;
+    background: #e4e6eb;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.profile-btn a img {
+    width: 18px;
+    margin-right: 5px;
+}
+
+.profile-btn .primary-btn {
+    background: #eaeaec;
+    color: #045be6;
+}
+
+
+.profile-description {
+    background: #ffffff;
+    padding: 0px 4% 0px;
+    margin: 12px 0;
+    
+}
+
+.profile-description h2 {
+    color: #333;
+    margin: 10px 0 20px;
+    font-weight: 600;
+}
+
+.see-more-link {
+    display: block;
+    text-align: right;
+    font-size: 15px;
+}
+
+.profile-desc-row {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+.profile-desc-row img {
+    width: 50px;
+    margin-right: 25px;
+    margin-top: 5px;
+}
+
+.profile-desc-row div {
+    width: 100%;
+}
+
+.profile-desc-row h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.profile-desc-row b {
+    display: block;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.profile-desc-row p {
+    margin-top: 15px;
+}
+
+.profile-desc-row hr {
+    border: 0;
+    border-bottom: 1px solid #999;
+    margin-top: 10px;
+}
+
+.experience-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+.experience-link img {
+    width: 20px;
+    margin-left: 8px;
+}
+
+.skills-btn {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 6px 18px;
+    border: 1px solid #777;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.language-btn {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 6px 18px;
+    background: #e4e6eb;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* -----------------profile right sidebar ------------------ */
+
+.profile-sidebar {
+    position: fixed;
+    top: 0;
+    right: 0; /* Position sidebar to the right edge */
+    bottom: 0;
+    width: 450px; /* Adjust width as needed */
+    background-color:white; /* Optional background color */
+    padding: 20px;
+    overflow-y: auto; /* Enable scrolling if content exceeds height */
+    margin-top: 160px;
+    height: 420px;
+    border: 0.2 solid #dcdcdc;
+  }
+
+  .job-mages {
+    width: 20px;
+    margin-top: 20px;
+  }
+
+  .alx {
+    width: 130px;
+    height: 130px;
+    margin-left: 30px;
+  }
+  
+  /* Optional styling for visual separation */
+  .profile-sidebar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-right: 1px solid #ddd; /* Adjust border color as needed */
+  }
+
+  .sidebar-people {
+    background: #fff;
+    padding: 15px 25px;
+    margin: 12px 0;
+    font-size: 12px;
+}
+
+.sidebar-people h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0 20px;
+}
+
+.sidebar-people-row {
+    display: flex;
+    align-items: center;
+    margin: 6px 0;
+}
+
+.sidebar-people-row img {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+    margin-top: -35px;
+}
+
+.sidebar-people-row h2 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.sidebar-people-row a {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 5px 25px;
+    border: 1px solid #5f5f5f;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+
+
+footer {
+  background-color:#4640DE;
+  color: white;
+  width: 100%;
+  margin-top: 90px;
+}
+ .footer{
+  padding:50px;
+  display: flex;
+  justify-content: space-between;
+} 
+
+.site-info {
+  margin-top: 70px;
+}
+
+.about-site, .site-resources, .site-notice {
+  margin-top: 2px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer li {
+  margin-top: 10px;
+  list-style: none;
+}
+
+.copyright {
+  margin-bottom: 40px;
+  margin-left: 60px;
+}
+.site-loc {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: flex-end;
+  background-color:#4640DE;
+}
+
+.social-media a {
+  margin-right: 30px;
+}
+
+.social-media img {
+  width: 30px;
+  margin-bottom: 40px;
+  height: 30px;
+}
+
