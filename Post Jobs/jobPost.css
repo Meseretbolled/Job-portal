@@ -1,0 +1,303 @@
+body{
+  background-color: white; 
+}
+
+h1 {
+font-size: 50px;
+margin: 20px auto;
+font-weight: bolder;
+font-family: var(--font-noto-sans-hebrew);
+}
+ 
+.navbar {
+border-style: solid;
+border-width: 0rem 0rem 0.1rem 0rem;
+border: 0.5px  solid #dcdcdc;
+position: fixed;
+left: 0rem;
+top: 0rem;
+height: 6.8rem;
+background: #fff;
+width: 100%;
+display: inline-flex; /* Arrange elements horizontally */
+justify-content: center; /* Distribute elements evenly with space */
+gap: 10rem;
+align-items: center; /* Vertically center elements */
+z-index: 2;
+}
+
+nav {
+display: inline-flex;
+gap: 2rem;
+}
+
+.logo {
+color: blue;
+font-size: 37px;
+font-weight: bolder;
+font: var(--font-noto-sans);
+}
+
+
+.nav-links {
+  margin-top: 30px;
+  list-style: none;
+  display: flex;
+  
+}
+
+.nav-links li {
+  font: weight 700px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px 3px;
+  
+}
+.nav-links li a{
+  text-decoration: none;
+  padding: 10px 10px;
+  margin-right: 15px;
+  margin-top: 15px;
+  border-radius: 1px;
+  color:  black;
+  background-color: #fff; /* White background for contrast */
+  padding-top: 3%;
+  padding-bottom: 6%;
+  
+}
+a.nav-links li,a:hover{
+  color: #4348DB;
+  border-style: solid;
+  border-width: 0rem 0rem 0.2rem 0rem;
+}
+
+
+#CS{
+color: #4348DB;
+border-style: solid;
+margin-top: 15px;
+border-width: 0rem 0rem 0.2rem 0rem; 
+}
+
+
+.header-buttons {
+margin-right: 10px;
+margin-top: 10px;
+display: flex;
+}
+
+button {
+margin: 0;
+padding: 0;
+border: none;
+font: inherit;
+color: inherit;
+}
+
+
+.button {
+display: inline-block;
+padding: 15px 25px;
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+background-color: blue;
+color: white;
+border-radius: 5px;
+transition: red 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.button:hover {
+background-color: purple;
+border-color: #45a049;
+color: #fff;
+}
+
+/* Style the login link */
+.linkTologin {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  margin-right: 35px;
+  margin-top: 10px;
+  border-radius: 5px;
+  color:  #4348DB;
+  background-color: #fff; /* White background for contrast */
+}
+
+/* Hover effect for the login link */
+.linkTologin:hover {
+  background-color: #ddd; /* Light gray background on hover */
+}
+
+  .sal-location {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sal-location label {
+    margin-bottom: 5px;
+  }
+  
+  .sal-location input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+  .create-jobs {
+    display: flex;
+    width: 100%;
+    margin-top: 7%;
+    height: 150px;
+    background-color: #f8f8f8;
+  }
+    
+  .container {
+    width: 55%;
+    margin-top: 0px;
+    margin-left: 25%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 3px;
+    border: 0.5px solid #dcdcdc;
+  }
+  
+  .posting {
+    margin-top: 40px;
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  select,
+  textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 95%; /* Full width */
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .submissionPost {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 95%;
+  }
+  
+  .submissionPost:hover {
+    background-color: #2185d0;
+  }
+  
+/* Flex container for company info */
+.company-info, .job-info, .salarry, .exp-qualify {
+    display: flex;
+    width: 100%; /* Horizontal layout */
+}
+
+.empty {
+    display: flex;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+/* Flex container for each label-input pair (vertical layout) */
+.compinfo-label {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px; /* Add some spacing between label-input pairs */
+    width: 48.5%;
+}
+
+/* Styling for labels */
+.compinfo-label label {
+    margin-bottom: 5px;
+}
+
+/* Styling for inputs */
+.compinfo-label input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 95%; /* Adjust the width as needed */
+}
+  
+  footer {
+    background-color:#4640DE;
+    color: white;
+    width: 100%;
+    margin-top: 40px;
+  }
+   .footer{
+    padding:50px;
+    display: flex;
+    justify-content: space-between;
+  } 
+  
+  .site-info {
+    margin-top: 70px;
+  }
+  
+  .about-site, .site-resources, .site-notice {
+    margin-top: 2px;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer li {
+    margin-top: 10px;
+    list-style: none;
+  }
+  
+  .copyright {
+    margin-bottom: 40px;
+    margin-left: 60px;
+  }
+  .site-loc {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: flex-end;
+    background-color:#4640DE;
+  }
+  
+  .social-media a {
+    margin-right: 30px;
+  }
+  
+  .social-media img {
+    width: 30px;
+    margin-bottom: 40px;
+    height: 30px;
+  }
+  
